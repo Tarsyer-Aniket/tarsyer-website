@@ -1,0 +1,170 @@
+@media only screen and (min-width: 1200px) {
+  .video-section-case-study {
+    position: relative;
+    width: 100%;
+    margin: 0 auto;
+    height: 100%;
+  }
+  .video-section-case-study video {
+    width: 100%;
+
+  }
+  .video-section-case-study .text-case-study {
+    position: absolute;
+    top: 0;
+    left: 31px;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    color: #000000;
+    /*font-size: 15px;*/
+    text-align: left;
+    /*text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);*/
+  }
+  .casestudysection {
+        margin-top: 191px;
+        padding-bottom: 80px;
+        background: url('../assets/img/cam_projection1.gif') right / contain space, #dfdfdf;
+        background-repeat: no-repeat;
+    }
+  .casestudycont {
+      margin-left: 21px;
+      margin-top: -191px;
+  }
+  .casestudypara1 {
+        margin-left: -0.1rem;
+        /*margin-right: calc(90% + 0.8rem);*/
+        text-align: justify;
+        /*font-size: 0.9rem;*/
+        width: 87%;
+        margin-top: -24px;
+    }
+  .casestudypara2 {
+        margin-right: 32px;
+        margin-left: -0.1rem;
+        text-align: justify;
+        /*font-size: 0.9rem;*/
+        margin-top: -36px;
+        width: 87%;
+
+    }
+  .casestudypara3 {
+        margin-left: -0.8rem;
+        text-align: justify;
+        /*font-size: 0.9rem;*/
+        margin-top: -35px;
+        width: 169%;
+    }
+  .ourproducts {
+        text-align: center;
+        margin-top: 1rem;
+        color: rgb(0,0,0);
+    }
+  .tofindsol {
+        height: 80vh;
+        background: linear-gradient(to bottom right, #ded4d4, #4f000e);
+    }
+  .casestudytitle {
+        margin-left: -1px;
+    }
+  .navbar {
+    display: flex;
+    align-items: start;
+    background-color: #ffffff;
+  }
+  .navbar img {
+    height: 80px;
+    /*margin-left: ;*/
+  }
+  .cont {
+      height: 90vh;
+      padding-left: 2% !important;
+  }
+  .vdeo {
+          margin-top: 54px;
+          margin-bottom: 12px;
+          object-fit: contain;
+          height: auto;
+
+      }
+  .conts {
+      height: 90vh;
+      padding-right: 2% !important;
+      padding-left: 2% !important;
+  }
+  .vdeo {
+      height: 94vh;
+      object-fit: fill;
+  }
+
+  .conts {
+      float: right;
+      width: 90% !important;
+  }
+  .paras {
+      float: right;
+      width: 60%;
+      text-align: justify;
+}
+  .para {
+      width: 60%;
+      text-align: justify;
+  }
+  .conti {
+      /*height: 90vh;*/
+      font-size: 0.6rem;
+      align-items: center;
+      justify-content: left;
+      color: #000000;
+      /*font-size: 15px;*/
+      text-align: left;
+  }
+  .vdeo {
+      margin-top: 30px;
+      margin-bottom: 12px;
+      object-fit: fill;
+      height: auto;
+      <video class="vdeo" width="100%" poster="assets/img/LANDING_VIDEO_3.mp4" autoplay="" loop="" preload="auto" muted="" >
+            <source src="assets/img/LANDING_VIDEO_3.mp4" type="video/webm">
+      </video>
+
+  }
+  .hemantsection {
+    background-image: url('https://res.cloudinary.com/dt224xdxl/image/upload/v1672685369/tarsyer-web/img/hemant_qgccoe.svg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+
+  }
+  .aboutusbgimage {
+        background-image: url("https://res.cloudinary.com/dt224xdxl/image/upload/v1672685364/tarsyer-web/img/about_us_fex5zz.svg");
+        background-repeat: no-repeat;
+        /*font-size: 0.8rem;*/
+        background-color: #3c3535;
+    }
+  .namegamebgimage {
+      background-image: url("https://res.cloudinary.com/dt224xdxl/image/upload/v1672685368/tarsyer-web/img/name_game_tabicv.svg");
+      background-repeat: no-repeat;
+      background-color: #3c3535;
+  }
+  .aboutuscontainer{
+    margin-right: 1.3rem;
+    margin-left: 0.8rem;
+    text-align: justify;
+    font-size: 1rem;
+    height: 90vh !important;
+
+
+  }
+  .namegamecontainer{
+      margin-right: 1.3rem;
+      margin-left: 0.8rem;
+      text-align: justify;
+      font-size: 1rem;
+      height: 90vh !important;
+
+  }
+
+}

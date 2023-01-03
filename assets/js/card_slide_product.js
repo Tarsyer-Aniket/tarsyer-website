@@ -25,7 +25,7 @@
         'Tarsyer Warehouse Manager',
         'Tarsyer Safety Manager',
         'Tarsyer Store Manager',
-        'Tarsyer Bank Contraller'
+        'Tarsyer Bank Controller'
     ];
     var msTitles = new MomentumSlider({
         el: slidersContainer,
@@ -48,10 +48,10 @@
         cssClass: 'ms--links',
         range: [0, 6],
         rangeContent: function () {
-            return '<a class="ms-slide__link"> view > </a>';
+            return '<a class="ms-slide__link"> Next > </a>';
         },
         vertical: true,
-        interactive: false
+        interactive: true
     });
 
     // Get pagination items

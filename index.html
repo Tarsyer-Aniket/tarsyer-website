@@ -43,6 +43,11 @@
     <link rel="stylesheet" href="assets/css/Mini-Cooper-Slider-2-Mini-Cooper.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
     <link rel="stylesheet" href="assets/css/card_slide_product.css">
+    <link rel="stylesheet" href="landing_logo_css/toggle_slice.css">
+    <link rel="stylesheet" href="landing_logo_css/responsiveness_phone.css">
+    <link rel="stylesheet" href="landing_logo_css/responsiveness_all_des.css">
+    <link rel="stylesheet" href="landing_logo_css/responsiveness_small_laptop.css">
+    <link rel="stylesheet" href="landing_logo_css/responsiveness_tablet.css">
 
 
     <!--    <link rel="stylesheet" href="assets/css/app.css">-->
@@ -66,11 +71,48 @@
 
 <body>
     <section>
-    <section>
-        <div class="navbar logo-div fixed-top">
-          <img src="assets/img/tarsyer_logo.png" alt="artificial intelligence / ai company tarsyer">
-        </div>
-        <header>
+    <section class="remove_patch">
+        <div class="header" style="background-color: #ffffff !important">
+         <div class="navbar logo-div fixed-top">
+          <img src="https://res.cloudinary.com/dt224xdxl/image/upload/v1672685379/tarsyer-web/img/tarsyer_logo_idyosm.png" alt="artificial intelligence / ai company tarsyer">
+
+            <div class="mobile-container" style="text-align: right; margin-right: 20px ">
+                 <a href="tel:+919665525926" style="color: black">
+                     <i class="fa fa-phone" aria-hidden="true"></i>
+                        +91 7798887409
+                 </a>
+                 <a href="mailto:info@wallchronicals.com" style="margin-left: 20px; color: black">
+                     <i class="fa fa-envelope-o" aria-hidden="true"></i>
+                        info@tarsyer.com
+                 </a>
+                <br>
+                <button class="menu-button" onclick="toggleMenu()">
+                  <div class="menu-icon">
+                    <div class="menu-line"></div>
+                    <div class="menu-line"></div>
+                    <div class="menu-line"></div>
+                  </div>
+                </button>
+                <div class="menu" id="menu">
+                  <button class="menu-item">What we do</button>
+                  <button class="menu-item">Features</button>
+                  <button class="menu-item">Case study</button>
+                  <button class="menu-item">Our Products</button>
+                  <button class="menu-item">Talk to Us</button>
+                  <button class="menu-item">About Us</button>
+                  <button class="menu-item">Contact Us</button>
+                </div>
+
+
+
+			</div>
+
+            </div>
+            </div>
+<!--          </div>-->
+
+
+        <header id="landingvideo">
             <div class="video-container" style="margin-bottom: 1px;">
                 <div>
 
@@ -84,7 +126,7 @@
 
         <!--    What we do section starts here-->
 
-        <section >
+        <section class="remove_patch" id="whatwedo">
             <section>
                 <div class="caption v-middle text-center " style="background-color: #f8f8f8; padding-top: 100px;margin-top: -100px;">
                             <h1 class="cd-headline clip" style="font-size: 45px; margin-bottom: 1.1rem">
@@ -94,27 +136,27 @@
             </section>
 
             <section id="slider" style="width: 1000px;height: 100vh;margin: -80px auto;margin-bottom: 0px;">
-            <div class="ls-slide" ><img class="ls-bg" width="1920" height="1080" src="assets/img/landing_bg_3.jpg" alt="computer vision, search engines, machine learning, Uncanny edge detection" />
+            <div class="ls-slide" ><img class="ls-bg" width="1920" height="1080" src="https://res.cloudinary.com/dt224xdxl/image/upload/v1672685368/tarsyer-web/img/landing_bg_3_cudvz7.jpg" alt="computer vision, search engines, machine learning, Uncanny edge detection" />
                 <div class="ls-l" style="width: 875px;height: 410px;background: #ffffff;border-radius: 10px;left: 20px;"></div>
                 <p class="ls-l  display-4" style="font-family: Raleway, sans-serif; font-weight: 700;letter-spacing: -0.03em;font-size: 45px;line-height: 36px;color: #000000;top: 25px;left: 70px;" data-ls="offsetxin:-150; durationin:4000; easingin:easeOutExpo; rotateyin:-30; transformoriginin:78.2% 416.7% -700px; offsetxout:100; durationout:800; easingout:easeInExpo; rotateyout:30; transformoriginout:78.2% 416.7% -700px">Perceive</p>
                 <p class="ls-l text-muted-para" style="font-family: Raleway, sans-serif; font-weight: 400;width: 450px;font-size: 20px;line-height: 25px;color: #000000;top: 85px;left: 70px;white-space: normal;" data-ls="offsetxin:-150; durationin:2000; easingin:easeOutExpo; rotateyin:-30; transformoriginin:124.7% 32.5% -500px; offsetxout:100; durationout:800; easingout:easeInExpo; rotateyout:30; transformoriginout:124.7% 32.5% -500px">Not able to keep an eye on everything? Don’t worry we have got you covered! Capture all details in real time - we are the supervisory layer to help you make better decisions.</p>
                 <p class="ls-l text-muted-para" style="font-family: Raleway, sans-serif; font-weight: 400;width: 450px;font-size: 20px;line-height: 25px;color: #000000;top: 215px;left: 80px;white-space: normal;" data-ls="offsetxin:-150; durationin:2000; easingin:easeOutExpo; rotateyin:-30; transformoriginin:124.7% 32.5% -500px; offsetxout:100; durationout:800; easingout:easeInExpo; rotateyout:30; transformoriginout:124.7% 32.5% -500px">• Operations monitoring <br>• Safety monitoring <br>• Risks & anomalies <br>• Quality monitoring</p>
-                <img class="ls-l" width="600" height="412" src="assets/img/vision.gif" alt="monitoring, IOT/ Internet of Things, safety measurements" style="top: 70px;left: 510px;" data-ls="offsetxin:-150; durationin:4000; easingin:easeOutExpo; rotateyin:-30; transformoriginin:13.2% 24.3% -1000px; offsetxout:100; durationout:800; easingout:easeInExpo; rotateyout:30; transformoriginout:13.2% 24.3% -1000px" />
+                <img class="ls-l" width="600" height="412" src="https://res.cloudinary.com/dt224xdxl/image/upload/v1672685379/tarsyer-web/img/vision_ptjbyv.gif" alt="monitoring, IOT/ Internet of Things, safety measurements" style="top: 70px;left: 510px;" data-ls="offsetxin:-150; durationin:4000; easingin:easeOutExpo; rotateyin:-30; transformoriginin:13.2% 24.3% -1000px; offsetxout:100; durationout:800; easingout:easeInExpo; rotateyout:30; transformoriginout:13.2% 24.3% -1000px" />
             </div>
-            <div class="ls-slide"><img class="ls-bg" width="1920" height="1080" src="assets/img/landing_bg_red.jpg" alt="vehicle monitoring, manufacturing productivity, inventory tracking" />
+            <div class="ls-slide"><img class="ls-bg" width="1920" height="1080" src="https://res.cloudinary.com/dt224xdxl/image/upload/v1672685369/tarsyer-web/img/landing_bg_red_s7vgyu.jpg" alt="vehicle monitoring, manufacturing productivity, inventory tracking" />
                 <div class="ls-l" style="width: 875px;height: 410px;background: #ffffff;border-radius: 10px;left: 20px;"></div>
                 <p class="ls-l display-4" style="font-family: Raleway, sans-serif; font-weight: 700;letter-spacing: -0.03em;font-size: 45px;line-height: 36px;color: #000000;top: 25px;left: 70px;" data-ls="offsetxin:-150; durationin:4000; easingin:easeOutExpo; rotateyin:-30; transformoriginin:78.2% 416.7% -700px; offsetxout:100; durationout:800; easingout:easeInExpo; rotateyout:30; transformoriginout:78.2% 416.7% -700px">Preempt</p>
                 <p class="ls-l text-muted-para" style="font-family: Raleway, sans-serif; font-weight: 400;width: 450px;font-size: 20px;line-height: 25px;color: #000000;top: 85px;left: 70px;white-space: normal;" data-ls="offsetxin:-150; durationin:2000; easingin:easeOutExpo; rotateyin:-30; transformoriginin:124.7% 32.5% -500px; offsetxout:100; durationout:800; easingout:easeInExpo; rotateyout:30; transformoriginout:124.7% 32.5% -500px">Receive instantaneous alerts and avoid costly downtime, accidents  or mistakes. Our self learning systems improve over time and give you close to human level performance - and much faster too!</p>
                 <p class="ls-l text-muted-para" style="font-family: Raleway, sans-serif; font-weight: 400;width: 450px;font-size: 20px;line-height: 25px;color: #000000;top: 235px;left: 80px;white-space: normal;" data-ls="offsetxin:-150; durationin:2000; easingin:easeOutExpo; rotateyin:-30; transformoriginin:124.7% 32.5% -500px; offsetxout:100; durationout:800; easingout:easeInExpo; rotateyout:30; transformoriginout:124.7% 32.5% -500px">• Malfunctions/threat alerts <br>• Improper/suspicious actions <br>• Shop floor activity <br>• Warehouse movements  </p>
-                <img class="ls-l" width="550" height="378" src="assets/img/senses.gif" alt="driver monitoring, cloud based platform/ cloud computing, Video Analytics" style="top: 110px;left: 510px;" data-ls="offsetxin:-150; durationin:4000; easingin:easeOutExpo; rotateyin:-30; transformoriginin:13.2% 24.3% -1000px; offsetxout:100; durationout:800; easingout:easeInExpo; rotateyout:30; transformoriginout:13.2% 24.3% -1000px" />
+                <img class="ls-l" width="550" height="378" src="https://res.cloudinary.com/dt224xdxl/image/upload/v1672685378/tarsyer-web/img/senses_uazf8m.gif" alt="driver monitoring, cloud based platform/ cloud computing, Video Analytics" style="top: 110px;left: 510px;" data-ls="offsetxin:-150; durationin:4000; easingin:easeOutExpo; rotateyin:-30; transformoriginin:13.2% 24.3% -1000px; offsetxout:100; durationout:800; easingout:easeInExpo; rotateyout:30; transformoriginout:13.2% 24.3% -1000px" />
             </div>
 
-            <div class="ls-slide"><img class="ls-bg" width="1920" height="1080" src="assets/img/landing_bg_1.jpg" alt="navigation, insights, analysis,person detection" />
+            <div class="ls-slide"><img class="ls-bg" width="1920" height="1080" src="https://res.cloudinary.com/dt224xdxl/image/upload/v1672685368/tarsyer-web/img/landing_bg_1_k770tp.jpg" alt="navigation, insights, analysis,person detection" />
                 <div class="ls-l" style="width: 875px;height: 410px;background: #ffffff;border-radius: 10px;left: 20px;"></div>
                 <p class="ls-l display-4 text-muted-para" style="font-family: Raleway, sans-serif; font-weight: 700;letter-spacing: -0.03em;font-size: 45px;line-height: 36px;color: #000000;top: 25px;left: 70px;" data-ls="offsetxin:-150; durationin:4000; easingin:easeOutExpo; rotateyin:-30; transformoriginin:78.2% 416.7% -700px; offsetxout:100; durationout:800; easingout:easeInExpo; rotateyout:30; transformoriginout:78.2% 416.7% -700px; ">Perception</p>
                 <p class="ls-l text-muted-para" style="font-family: Raleway, sans-serif; font-weight: 400;width: 450px;font-size: 20px;line-height: 25px;color: #000000;top: 85px;left: 70px;white-space: normal;" data-ls="offsetxin:-150; durationin:2000; easingin:easeOutExpo; rotateyin:-30; transformoriginin:124.7% 32.5% -500px; offsetxout:100; durationout:800; easingout:easeInExpo; rotateyout:30; transformoriginout:124.7% 32.5% -500px; ">We are so much more than just vision! We help you with a holistic view of your operations, with better insights to make better decisions. Covering disparate locations & operational areas in fine grain detail yet giving you only what you need to see.</p>
                 <p class="ls-l text-muted-para" style="font-family: Raleway, sans-serif; font-weight: 400;width: 450px;font-size: 20px;line-height: 25px;color: #000000;top: 255px;left: 80px;white-space: normal;" data-ls="offsetxin:-150; durationin:2000; easingin:easeOutExpo; rotateyin:-30; transformoriginin:124.7% 32.5% -500px; offsetxout:100; durationout:800; easingout:easeInExpo; rotateyout:30; transformoriginout:124.7% 32.5% -500px;">• Stage wise production & inventory <br>• ‘Near misses’ and risks <br>• Wastage, damages, under utilization <br>• SOP violation trends</p>
-                <img class="ls-l" width="550" height="378" src="assets/img/insights.gif" alt="operational activities, data, industrial solutions, object detection" style="top: 90px;left: 510px;" data-ls="offsetxin:-150; durationin:4000; easingin:easeOutExpo; rotateyin:-30; transformoriginin:13.2% 24.3% -1000px; offsetxout:100; durationout:800; easingout:easeInExpo; rotateyout:30; transformoriginout:13.2% 24.3% -1000px;" />
+                <img class="ls-l" width="550" height="378" src="https://res.cloudinary.com/dt224xdxl/image/upload/v1672685367/tarsyer-web/img/insights_wlntnk.gif" alt="operational activities, data, industrial solutions, object detection" style="top: 90px;left: 510px;" data-ls="offsetxin:-150; durationin:4000; easingin:easeOutExpo; rotateyin:-30; transformoriginin:13.2% 24.3% -1000px; offsetxout:100; durationout:800; easingout:easeInExpo; rotateyout:30; transformoriginout:13.2% 24.3% -1000px;" />
             </div>
 
             </section>
@@ -127,7 +169,7 @@
 
 
 <!--        Hemant's idea starts here-->
-      <section class="hemantsection" style="background-color: #b3b3b3; height: 90vh">
+      <section class="hemantsection remove_patch" id="hemant" style="background-color: #b3b3b3; height: 90vh">
 <!--          <div>-->
 <!--            <img src="assets/img/hemant.svg" alt="image">-->
 <!--          </div>-->
@@ -328,7 +370,7 @@
 
 
         <section>
-            <section class="casestudysection" data-bs-spy="scroll">
+            <section class="casestudysection remove_patch" id="casestudy" data-bs-spy="scroll">
                 <div class="container py-4 py-xl-5 casestudycont">
                     <div class="row">
                         <div class="col-md-6 col-xl-11">
@@ -388,9 +430,9 @@
 
 
         <!--        card product section ends here-->
-        <section>
+        <section class="remove_patch" id="ourproduct">
             <div class="container_product" style="background-color: #b3b3b3;">
-<!--                <h3 class="display-6 pb-md-4" data-aos="fade-right" style="color: rgb(0,0,0);">CASE STUDY</h3>-->
+                <h3 class="display-6 pb-md-4 ourproducts">OUR PRODUCTS</h3>
                 <!-- Container for all sliders, and pagination -->
                 <main class="sliders-container">
                     <!-- Here will be injected sliders for images, numbers, titles and links -->
@@ -413,18 +455,18 @@
 
     <!--    to find the solution one must narrate the problem well section starts here-->
 
-        <section>
-            <div class="container py-4 py-xl-5" data-aos="fade-up" style="margin-top: 56px;margin-bottom: -50px;padding-top: 38px;padding-bottom: 68px;">
+        <section class="remove_patch tofindsol" id="tofindsol">
+            <div class="container py-4 py-xl-5" style="margin-bottom: -50px;padding-top: 10px;padding-bottom: 68px;">
                 <div class="text-center" style="font-family: Raleway, sans-serif;">
-                    <h1 class="display-4 fw-bold mb-5 text--conveyor" data-scroll="out" data-splitting=""style="margin-top: 44px;padding-bottom: 0px;margin-bottom: 19px;"><span style="font-weight: normal !important; color: rgb(0, 0, 0); background-color: transparent;">“To find the solution, one must narrate the problem well”</span><br></h1>
-                    <p class="fs-5 text-muted "><span style="color: rgb(136, 136, 136); background-color: transparent;">Tell us about your pain points</span></p><form class="d-flex justify-content-center flex-wrap" style="padding-bottom: 48px;margin-bottom: 164px;padding-top: 10px;" data-bss-recipient="e0287977923fcc8c10ed545c5dfcab50"><textarea class="form-control" style="margin-bottom: 19px;" placeholder="Example: Manpower, Monitoring, etc" minlength="10" rows="4"></textarea>
+                    <h1 class="display-4 fw-bold mb-5 tofindsolfont" data-scroll="out" data-splitting=""style="margin-top: 30px; padding-bottom: 0px;margin-bottom: 19px;"><span style="font-weight: normal !important;  color: rgb(0, 0, 0); background-color: transparent;">“To find the solution, one must narrate the problem well”</span><br></h1>
+                    <p class="fs-5 text-muted "><span style="color: rgb(255,255,255); background-color: transparent;">Tell us about your operational pain points</span></p><form class="d-flex justify-content-center flex-wrap" style="padding-bottom: 48px;margin-bottom: 164px;padding-top: 10px;" data-bss-recipient="e0287977923fcc8c10ed545c5dfcab50"><textarea class="form-control" style="margin-bottom: 19px;" placeholder="Example: Manpower, Monitoring, etc" minlength="10" rows="4"></textarea>
                     <div class="shadow-lg mb-3">
                         <label>
-                            <input class="form-control form-control" type="email" required name="email" placeholder="Your Email" style="margin-right: 96px;margin-left: 0px;padding-right: 71px;padding-left: 15px;" />
+                            <input class="form-control form-control" type="email" required name="email" placeholder="Your Email Address" style="margin-right: 96px;margin-left: 0px;padding-right: 71px;padding-left: 15px;" />
                         </label>
                     </div>
                     <div class="shadow-lg mb-3">
-                        <button class="btn btn-primary text-bg-dark" type="submit">Tell me </button>
+                        <button class="btn btn-primary" style="background-color: black" type="submit">Submit </button>
                     </div>
                     </form>
                 </div>
@@ -435,15 +477,15 @@
 
     <!--    About us and name game section starts here-->
 
-        <section>
+        <section class="remove_patch" id="aboutus">
             <section class="carousel slide" data-bs-ride="carousel" data-bs-interval="3000">
                 <div class="carousel-inner">
-                    <section class="carousel-item conti aboutusbgimage">
-                        <div class=" cont py-4 py-xl-5" >
+                    <section class="carousel-item active conti aboutusbgimage">
+                        <div class=" cont py-4 py-xl-5 aboutuscontainer" >
                             <div class="text-center"></div>
                             <div class="row gy-4 gy-md-0" >
                                 <div class="col">
-                                    <div >
+                                    <div>
                                         <h3 class="fw-bold pb-md-4 para" style="text-align: center; color: white"><span >About us</span><br /></h3>
                                         <p class="text-muted py-4 py-md-0 para" ><span style="color: rgb(255, 255, 255);background-color: transparent;">We are a group of computer vision engineers who started on our journey in 2020 and work out of one of the leafy bylanes of Koregaon Park, Pune. By staying away from the noisier and bustling areas of the city, we are able to devote all our energies to developing and optimizing and vision algorithms to solve ever more complex problems.</span><br /><br /><span style="color: rgb(255, 255, 255);background-color: transparent;">This is backed by many years spent in the trenches developing and deploying complex technology solutions to optimize manufacturing and warehousing processes.</span><br /><br /><span style="color: rgb(255, 255, 255);background-color: transparent;">While there are many great technologies out there, we decide to focus all our energies on computer vision. After all, 30% of our brain is dedicated to visual processing. So, if we can solve the vision problem, then we can solve a wide variety of problems in several industries. <br><br>
                                         Another driving force for us was to go deep into the business problem and not get bogged down by the plumbing of tech complexity. This is the genesis of the <span style="color: red;background-color: transparent;">Tarsyer Edge Device.</span> &nbspAll our algorithms, IP and software are packaged into this single device. For you, as the user, you need just need this device and can ignore everything else.<br><br>
@@ -454,8 +496,8 @@
                             </div>
                         </div>
                     </section>
-                    <section class="carousel-item active conti namegamebgimage">
-                        <div class=" conts py-4 py-xl-5" >
+                    <section class="carousel-item conti namegamebgimage">
+                        <div class=" conts py-4 py-xl-5 namegamecontainer" >
                             <div class="text-center"></div>
                             <div class="row gy-4 gy-md-0">
                                 <div class="col">
@@ -553,7 +595,7 @@
     <!--    contact us section starts here-->
 
 
-        <footer >
+        <footer class="remove_patch">
             <div class="container py-4 py-lg-5">
                 <section class="position-relative py-4 py-xl-5" id="contactinfo">
                     <div >
@@ -588,8 +630,8 @@
                                         </div>
                                         <div class="form-group mb-3">
                                             <div class="row">
-                                                <div class="col"><button class="btn btn-dark d-block w-100" type="reset" style="background: rgb(0,0,0);"><i class="fa fa-undo"></i> Reset</button></div>
-                                                <div class="col"><button class="btn btn-dark d-block w-100" type="submit" style="--bs-primary: #000000;--bs-primary-rgb: 0,0,0;background: rgb(0,0,0);">Submit <i class="fa fa-chevron-circle-right"></i></button></div>
+                                                <div class="col"><button class="btn btn-dark d-block w-100" type="reset" style="background: rgb(239,53,41);"> Reset</button></div>
+                                                <div class="col"><button class="btn btn-dark d-block w-100" type="submit" style="--bs-primary: rgba(143,95,95,0);background: rgb(239,53,41);">Submit </button></div>
                                             </div>
                                         </div>
                                         <hr class="d-flex d-md-none">
@@ -707,8 +749,54 @@
                             </div>
                         </div>
                     </div>
+
                 </section>
                 <hr>
+                    <section>
+                    <ul class="list-inline text-center">
+                                <strong>
+                                <li class="list-inline-item">
+                                    <div class="row">
+                                        <div><a href="#whatwedo">What we &nbsp;|  </a></div>
+                                    </div>
+                                </li>
+                                <li class="list-inline-item">
+                                    <div class="row">
+                                        <div><a href="#hemant">  Features &nbsp;|  </a></div>
+                                    </div>
+                                </li>
+                                <li class="list-inline-item">
+                                    <div class="row">
+                                        <div><a href="#casestudy">Case study &nbsp;|  </a></div>
+                                    </div>
+                                </li>
+                                <li class="list-inline-item">
+                                    <div class="row">
+                                        <div><a href="#ourproduct">Our Products &nbsp;|  </a></div>
+                                    </div>
+                                </li>
+                                <li class="list-inline-item">
+                                    <div class="row">
+                                        <div><a href="#tofindsol">Talk to Us &nbsp;|  </a></div>
+                                    </div>
+                                </li>
+
+                                <li class="list-inline-item">
+                                    <div class="row">
+                                        <div><a href="#aboutus">About Us &nbsp;|  </a></div>
+                                    </div>
+                                </li>
+                                <li class="list-inline-item">
+                                    <div class="row">
+                                        <div><a href="#contactinfo">Contact Us</a></div>
+                                    </div>
+                                </li>
+                                </strong>
+
+                            </ul>
+                    </section>
+                <hr>
+
                 <div class="container">
                     <div class="row">
                         <div class="col-md-6 col-lg-8 mx-auto">
@@ -716,7 +804,7 @@
                                 <li class="list-inline-item">
                                     <a href="https://www.youtube.com/@tarsyerinsights6649">
                                         <span class="fa-stack fa-lg">
-                                            <i class="fa fa-youtube-play fa-stack-2x" style="border-color: rgb(0,0,0);color: rgb(0,0,0);font-size: 32px;">
+                                            <i class="fa fa-youtube-play fa-stack-2x" style="border-color: rgb(239,53,41);color: rgb(239,53,41);font-size: 32px;">
                                             </i>
                                         </span>
                                     </a>
@@ -724,7 +812,7 @@
                                 <li class="list-inline-item">
                                     <a href="https://www.linkedin.com/company/tarsyer/" style="margin-bottom: 10px;margin-top: 9px;">
                                         <span class="fa-stack fa-lg">
-                                            <svg class="fa-stack-2x" xmlns="http://www.w3.org/2000/svg" viewBox="-32 0 512 512" width="1em" height="1em" fill="currentColor" style="border-color: rgb(0,0,0);color: rgb(0,0,0);font-size: 29px;">
+                                            <svg class="fa-stack-2x" xmlns="http://www.w3.org/2000/svg" viewBox="-32 0 512 512" width="1em" height="1em" fill="currentColor" style="border-color: rgb(239,53,41);color: rgb(239,53,41);font-size: 29px;">
                                                 <!--! Font Awesome Free 6.1.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc. -->
                                                 <path d="M416 32H31.9C14.3 32 0 46.5 0 64.3v383.4C0 465.5 14.3 480 31.9 480H416c17.6 0 32-14.5 32-32.3V64.3c0-17.8-14.4-32.3-32-32.3zM135.4 416H69V202.2h66.5V416zm-33.2-243c-21.3 0-38.5-17.3-38.5-38.5S80.9 96 102.2 96c21.2 0 38.5 17.3 38.5 38.5 0 21.3-17.2 38.5-38.5 38.5zm282.1 243h-66.4V312c0-24.8-.5-56.7-34.5-56.7-34.6 0-39.9 27-39.9 54.9V416h-66.4V202.2h63.7v29.2h.9c8.9-16.8 30.6-34.5 62.9-34.5 67.2 0 79.7 44.3 79.7 101.9V416z">
                                                 </path>
@@ -733,7 +821,7 @@
                                     </a>
                                 </li>
                             </ul>
-                            <p class="copyright text-muted text-center">Copyright © 2022 | Tarsyer</p>
+                            <p class="copyright text-muted text-center">Copyright © 2023 | Tarsyer</p>
                         </div>
                     </div>
                 </div>
@@ -768,6 +856,7 @@
 
     <script src='https://rawgit.com/lmgonzalves/momentum-slider/master/dist/momentum-slider.min.js'></script>
     <script  src="assets/js/card_slide_product.js"></script>
+    <script src="assets/js/toggle_slice.js"></script>
 
 </body>
 
