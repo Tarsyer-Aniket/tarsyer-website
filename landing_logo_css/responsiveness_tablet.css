@@ -22,7 +22,7 @@
     }
     .tofindsol {
         height: 70vh;
-        background: linear-gradient(to bottom right, #ded4d4, #4f000e);
+        background: linear-gradient(1deg, #696767, transparent);
     }
     .vdeo {
           margin-top: -80px !important;
@@ -42,13 +42,13 @@
     height: 56vh !important;
     }
     .aboutusbgimage {
-        background-image: url("../assets/img/about_us.svg");
+        background-image: url("https://res.cloudinary.com/dt224xdxl/image/upload/v1672685364/tarsyer-web/img/about_us_fex5zz.svg");
         background-repeat: no-repeat;
         background-size: cover;
         width: 100%;
         font-size: 0.7rem;
         text-align: justify;
-        background-color: #3c3535;
+        background-color: #dfdfdf;
     }
     .namegamebgimage {
         background-image: url("../assets/img/name_game.svg");
@@ -57,7 +57,7 @@
         width: 100%;
         font-size: 0.7rem;
         text-align: justify;
-        background-color: #3c3535;
+        background-color: #dfdfdf;
     }
     .casestudypara1 {
         margin-left: -0.8rem;
@@ -85,6 +85,8 @@
     }
     .casestudytitle {
         margin-left: -1px;
+        font-size: 45px;
+          font-weight: 500;
     }
     .casestudycont {
         margin-left: 21px;

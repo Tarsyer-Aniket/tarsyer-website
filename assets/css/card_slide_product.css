@@ -40,7 +40,7 @@
   }
 
   .ms--images {
-    left: calc(50% - 200px);
+    left: calc(50% - 250px);
     top: calc(50%) !important;
   }
 
@@ -49,37 +49,37 @@
   }
 
   .ms--images .ms-slide:nth-child(1) .ms-slide__image {
-    background: url("https://res.cloudinary.com/dt224xdxl/image/upload/v1672685370/tarsyer-web/img/product_card/1_qy119k.svg");
+    background-image: url("https://res.cloudinary.com/dt224xdxl/image/upload/v1673607016/tarsyer-web/img/shift_kamxqg.svg");
   }
 
   .ms--images .ms-slide:nth-child(2) .ms-slide__image {
-    background-image: url("https://res.cloudinary.com/dt224xdxl/image/upload/v1672685372/tarsyer-web/img/product_card/2_dl9xdj.svg");
+    background-image: url("https://res.cloudinary.com/dt224xdxl/image/upload/v1673601882/tarsyer-web/img/shift_nvjl8b.svg");
   }
 
   .ms--images .ms-slide:nth-child(3) .ms-slide__image {
-    background-image: url("https://res.cloudinary.com/dt224xdxl/image/upload/v1672685372/tarsyer-web/img/product_card/3_n7pc4v.svg");
+    background-image: url("https://res.cloudinary.com/dt224xdxl/image/upload/v1673601882/tarsyer-web/img/shift_nvjl8b.svg");
   }
 
   .ms--images .ms-slide:nth-child(4) .ms-slide__image {
-    background-image: url("https://res.cloudinary.com/dt224xdxl/image/upload/v1672685373/tarsyer-web/img/product_card/4_mlcyfx.svg");
+    background-image: url("https://res.cloudinary.com/dt224xdxl/image/upload/v1673601882/tarsyer-web/img/shift_nvjl8b.svg");
   }
 
   .ms--images .ms-slide:nth-child(5) .ms-slide__image {
-    background-image: url("https://res.cloudinary.com/dt224xdxl/image/upload/v1672685379/tarsyer-web/img/product_card/5_juqvph.svg");
+    background-image: url("https://res.cloudinary.com/dt224xdxl/image/upload/v1673601882/tarsyer-web/img/shift_nvjl8b.svg");
   }
 
   .ms--images .ms-slide:nth-child(6) .ms-slide__image {
-    background-image: url("https://res.cloudinary.com/dt224xdxl/image/upload/v1672685375/tarsyer-web/img/product_card/6_jcmruw.svg");
+    background-image: url("https://res.cloudinary.com/dt224xdxl/image/upload/v1673601882/tarsyer-web/img/shift_nvjl8b.svg");
   }
 
   .ms--images .ms-slide:nth-child(7) .ms-slide__image {
-    background-image: url("https://res.cloudinary.com/dt224xdxl/image/upload/v1672685376/tarsyer-web/img/product_card/7_eveqip.svg");
+    background-image: url("https://res.cloudinary.com/dt224xdxl/image/upload/v1673601882/tarsyer-web/img/shift_nvjl8b.svg");
   }
 
   .ms--images .ms-slide__image-container {
     width: 700px;
     height: 100%;
-    background-color: rgba(0, 0, 0, 0.3);
+    /*background-color: rgba(0, 0, 0, 0.3);*/
     overflow: hidden;
   }
 
@@ -102,7 +102,7 @@
   }
 
   .ms--numbers.ms-container--horizontal .ms-track {
-    left: calc(50% - 120px);
+    left: calc(50% - 70px);
   }
 
   .ms--numbers.ms-container--horizontal .ms-slide {
@@ -191,7 +191,7 @@
 
   .ms--titles {
     position: absolute;
-    left: calc(50% - 350px);
+    left: calc(50% - 450px);
     top: calc(50% - 200px);
     z-index: 1;
     pointer-events: none;
@@ -202,7 +202,7 @@
   }
 
   .ms--titles .ms-slide {
-    font-size: 1.5rem;
+    font-size: 1.2rem;
     font-weight: 500;
   }
 
@@ -253,7 +253,7 @@
 
   .ms--links {
     position: absolute;
-    left: calc(50% - 380px);
+    left: calc(50% - 450px);
     top: calc(50% + 105px);
     z-index: 1;
   }

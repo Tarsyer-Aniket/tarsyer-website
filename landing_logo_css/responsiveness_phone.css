@@ -1,6 +1,16 @@
 /*This is file for the responsiveness for phones*/
 
 @media only screen and (max-width: 480px) {
+
+    .whatsapp-logo-container {
+      position: fixed;
+      bottom: 20px;
+      right: 20px;
+  }
+    .whatsapp-logo {
+      height: 40px;
+}
+
     .whatwedofont{
           font-size:1.5rem !important;
           margin-bottom: 5rem !important;
@@ -18,7 +28,7 @@
         width: 100%;
         font-size: 0.6rem;
         text-align: justify;
-        background-color: #3c3535;
+        background-color: #dfdfdf;
     }
     .namegamebgimage {
         background-image: url("https://res.cloudinary.com/dt224xdxl/image/upload/v1672685369/tarsyer-web/img/name_game_mobile_s5rtpb.svg");
@@ -26,7 +36,7 @@
         width: 100%;
         font-size: 0.6rem;
         text-align: justify;
-        background-color: #3c3535;
+        background-color: #dfdfdf;
     }
     .vdeo {
           margin-top: -7px;
@@ -58,6 +68,8 @@
     }
     .casestudytitle {
         margin-left: -1px;
+        font-size: 45px;
+          font-weight: 500;
     }
     .casestudycont {
         margin-left: 21px;
@@ -74,7 +86,7 @@
     }
     .tofindsol {
         height: 90vh;
-        background: linear-gradient(to bottom right, #ded4d4, #4f000e);
+        background: linear-gradient(1deg, #696767, transparent);
     }
     .aboutuscontainer{
         margin-right: 1.3rem;

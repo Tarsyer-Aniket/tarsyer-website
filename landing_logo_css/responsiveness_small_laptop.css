@@ -1,4 +1,13 @@
 @media only screen and (min-width: 992px) and (max-width: 1200px) {
+    .whatsapp-logo-container {
+      position: fixed;
+      bottom: 20px;
+      right: 20px;
+  }
+    .whatsapp-logo {
+      height: 60px;
+}
+
     #text-container {
       width: 100%;
       font-size: 1.5rem;
@@ -19,10 +28,11 @@
         text-align: center;
         top: calc(100% - 100px);
         color: rgb(0,0,0);
+
     }
     .tofindsol {
         height: 70vh;
-        background: linear-gradient(to bottom right, #ded4d4, #4f000e);
+        background: linear-gradient(1deg, #696767, transparent);
     }
     .vdeo {
           margin-top: -80px !important;
@@ -43,12 +53,12 @@
     height: 70vh !important;
     }
     .aboutusbgimage {
-        background-image: url("https://res.cloudinary.com/dt224xdxl/image/upload/v1672685365/tarsyer-web/img/about_us_mobile_oo6afk.svg");
+        background-image: url("https://res.cloudinary.com/dt224xdxl/image/upload/v1673611725/tarsyer-web/img/about_us_obdqmt.svg");
         background-repeat: no-repeat;
         width: 100%;
         font-size: 0.7rem;
         text-align: justify;
-        background-color: #3c3535;
+        background-color: #dfdfdf;
     }
     .namegamebgimage {
         background-image: url("https://res.cloudinary.com/dt224xdxl/image/upload/v1672685369/tarsyer-web/img/name_game_mobile_s5rtpb.svg");
@@ -85,6 +95,8 @@
     }
     .casestudytitle {
         margin-left: -1px;
+        font-size: 45px;
+          font-weight: 500;
     }
     .casestudycont {
         margin-left: 21px;
@@ -101,7 +113,7 @@
     }
     .tofindsol {
         height: 80vh !important;
-        background: linear-gradient(to bottom right, #ded4d4, #4f000e);
+        background: linear-gradient(1deg, #696767, transparent);
 
     }
     .aboutuscontainer{
@@ -120,15 +132,15 @@
         height: 80vh;
     }
     .aboutusbgimage {
-        background-image: url("../assets/img/about_us.svg");
+        background-image: url("https://res.cloudinary.com/dt224xdxl/image/upload/v1673611725/tarsyer-web/img/about_us_obdqmt.svg");
         background-repeat: no-repeat;
         /*font-size: 0.8rem;*/
-        background-color: #3c3535;
+        background-color: #dfdfdf;
     }
     .namegamebgimage {
         background-image: url("../assets/img/name_game.svg");
         background-repeat: no-repeat;
-        background-color: #3c3535;
+        background-color: #dfdfdf;
     }
     .para {
           margin-top: -0.8rem;
@@ -144,7 +156,7 @@
     }
     .tofindsol {
         height: 70vh;
-        background: linear-gradient(to bottom right, #ded4d4, #4f000e);
+        background: linear-gradient(1deg, #696767, transparent);
     }
 }
 

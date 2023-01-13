@@ -61,13 +61,19 @@
         text-align: center;
         margin-top: 1rem;
         color: rgb(0,0,0);
+        font-weight: 500;
+        font-size: 45px;
     }
   .tofindsol {
         height: 80vh;
-        background: linear-gradient(to bottom right, #ded4d4, #4f000e);
+        background: linear-gradient(0deg, #696767, transparent);
+
     }
   .casestudytitle {
         margin-left: -1px;
+        font-size: 45px;
+        font-weight: 500;
+        margin-bottom: 3rem !important;
     }
   .navbar {
     display: flex;
@@ -122,10 +128,11 @@
       text-align: left;
   }
   .vdeo {
-      margin-top: 30px;
-      margin-bottom: 12px;
-      object-fit: fill;
-      height: auto;
+      margin-top: 70px;
+    margin-bottom: 14px;
+    object-fit: fill;
+    height: 93vh;
+      /*height: auto;*/
       <video class="vdeo" width="100%" poster="assets/img/LANDING_VIDEO_3.mp4" autoplay="" loop="" preload="auto" muted="" >
             <source src="assets/img/LANDING_VIDEO_3.mp4" type="video/webm">
       </video>
@@ -139,15 +146,15 @@
 
   }
   .aboutusbgimage {
-        background-image: url("https://res.cloudinary.com/dt224xdxl/image/upload/v1672685364/tarsyer-web/img/about_us_fex5zz.svg");
+        background-image: url("https://res.cloudinary.com/dt224xdxl/image/upload/v1673611725/tarsyer-web/img/about_us_obdqmt.svg");
         background-repeat: no-repeat;
         /*font-size: 0.8rem;*/
-        background-color: #3c3535;
+        background-color: #dfdfdf;
     }
   .namegamebgimage {
       background-image: url("https://res.cloudinary.com/dt224xdxl/image/upload/v1672685368/tarsyer-web/img/name_game_tabicv.svg");
       background-repeat: no-repeat;
-      background-color: #3c3535;
+      background-color: #dfdfdf;
   }
   .aboutuscontainer{
     margin-right: 1.3rem;
@@ -166,5 +173,22 @@
       height: 90vh !important;
 
   }
+
+  .aboutustitle {
+      font-weight: 500;
+      font-size: 45px;
+  }
+  .namegametitle {
+      font-weight: 500;
+      font-size: 45px;
+  }
+  .whatsapp-logo-container {
+      position: fixed;
+      bottom: 20px;
+      right: 20px;
+  }
+    .whatsapp-logo {
+      height: 60px;
+}
 
 }
