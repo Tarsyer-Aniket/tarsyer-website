@@ -78,7 +78,10 @@
   .navbar {
     display: flex;
     align-items: start;
-    background-color: #ffffff;
+      height: 80px;
+      background-color: #FFFFFF;
+
+
   }
   .navbar img {
     height: 80px;
