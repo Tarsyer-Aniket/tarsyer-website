@@ -167,18 +167,18 @@
 }
 
 .ls-bottom-nav-wrapper, .ls-below-thumbnails {
-  height: 0;
+  height: 5rem;
   position: relative;
   text-align: center;
   margin: 0 auto;
 }
 
 .ls-below-thumbnails {
-  display: none;
+  display: inline-block;
 }
 
 .ls-bottom-nav-wrapper a, .ls-nav-prev, .ls-nav-next {
-  outline: none;
+  outline: black;
 }
 
 .ls-bottom-slidebuttons {
@@ -207,7 +207,7 @@
 }
 
 .ls-bottom-nav-wrapper, .ls-thumbnail-wrapper, .ls-nav-prev, .ls-nav-next {
-  visibility: hidden;
+  visibility: visible;
 }
 
 .ls-bar-timer {
@@ -227,7 +227,7 @@
   right: 10px;
   top: 10px;
   opacity: .005;
-  display: none;
+  display: block;
 }
 
 .ls-container .ls-circle-timer, .ls-container .ls-circle-timer * {
@@ -419,8 +419,8 @@
 .ls-thumbnail-slide a {
   overflow: hidden;
   display: inline-block;
-  width: 0;
-  height: 0;
+  width: 5rem;
+  height: 5rem;
   position: relative;
 }
 
@@ -622,8 +622,8 @@
 }
 
 .ls-hidden {
-  width: 0px !important;
-  height: 0px !important;
+  width: 5rem !important;
+  height: 5rem !important;
   position: absolute;
   left: -5000px;
   top: -5000px;
@@ -742,7 +742,7 @@ html .ls-tn, body .ls-tn, #ls-global .ls-tn {
 }
 
 .ls-bottom-nav-wrapper, .ls-bottom-nav-wrapper span, .ls-bottom-nav-wrapper a {
-  line-height: 0;
+  line-height: 1rem;
   font-size: 0;
 }
 

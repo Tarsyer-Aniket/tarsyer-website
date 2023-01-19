@@ -54,6 +54,15 @@
         interactive: true
     });
 
+    var nextButtons = document.querySelectorAll('.ms--links .ms-slide__link');
+
+    // Add the click event listener to each next button
+    nextButtons.forEach(function(nextButton) {
+        nextButton.addEventListener('click', function() {
+            msImages.next();
+        });
+    });
+
     // Get pagination items
     var pagination = document.querySelector('.pagination');
     var paginationItems = [].slice.call(pagination.children);

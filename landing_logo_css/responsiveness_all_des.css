@@ -137,7 +137,7 @@
     height: 93vh;
       /*height: auto;*/
       <video class="vdeo" width="100%" poster="assets/img/LANDING_VIDEO_3.mp4" autoplay="" loop="" preload="auto" muted="" >
-            <source src="assets/img/LANDING_VIDEO_3.mp4" type="video/webm">
+            /*<source src="assets/img/LANDING_VIDEO_3.mp4" type="video/webm">*/
       </video>
 
   }
