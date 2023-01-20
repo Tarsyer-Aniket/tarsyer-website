@@ -6,6 +6,7 @@
       position: fixed;
       bottom: 20px;
       right: 20px;
+      z-index: 999;
   }
     .whatsapp-logo {
       height: 40px;
@@ -67,9 +68,9 @@
 
     }
     .casestudytitle {
-        margin-left: -1px;
-        font-size: 45px;
-          font-weight: 500;
+        margin-left: -0.8rem;
+        /*font-size: 45px;*/
+        font-weight: 500;
     }
     .casestudycont {
         margin-left: 21px;

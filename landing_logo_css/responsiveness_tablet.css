@@ -35,7 +35,7 @@
           margin-bottom: 5rem !important;
     }
     .hemantsection {
-    background-image: url('../assets/img/hemant.svg');
+    background-image: url('https://res.cloudinary.com/dt224xdxl/image/upload/v1672685369/tarsyer-web/img/hemant_qgccoe.svg');
     background-position: center;
     background-repeat: no-repeat;
     background-size: contain;
@@ -51,7 +51,7 @@
         background-color: #dfdfdf;
     }
     .namegamebgimage {
-        background-image: url("../assets/img/name_game.svg");
+        background-image: url("https://res.cloudinary.com/dt224xdxl/image/upload/v1672685369/tarsyer-web/img/name_game_mobile_s5rtpb.svg");
         background-repeat: no-repeat;
         background-size: cover;
         width: 100%;

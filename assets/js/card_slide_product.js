@@ -58,10 +58,17 @@
 
     // Add the click event listener to each next button
     nextButtons.forEach(function(nextButton) {
-        nextButton.addEventListener('click', function() {
+    nextButton.addEventListener('click', function() {
+        var currentIndex = msImages.getCurrentIndex();
+        // var lastIndex = msImages.getLastIndex();
+        if (currentIndex === 6) {
+            msImages.select(0); // select the first slide
+        } else {
             msImages.next();
-        });
+        }
     });
+    });
+
 
     // Get pagination items
     var pagination = document.querySelector('.pagination');
